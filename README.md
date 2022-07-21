@@ -20,7 +20,7 @@ Note that as I said before, for faster training the network convolution layers c
 
 
 # Dataset
-[CAT2000](http://saliency.mit.edu/results_cat2000.html) data set is used to train the model
+[CAT2000](http://saliency.mit.edu/results_cat2000.html) dataset is used to train the model
 
 
 # References 
