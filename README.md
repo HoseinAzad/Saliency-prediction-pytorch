@@ -16,7 +16,7 @@ Two convnets are presented in the paper, a shallow network and a deep one. But h
 
 # Results
 ![](https://github.com/hoseinAzdmlki/saliency-pytorch/blob/master/results/im1.png)
-Note that, as I said before, convolution layers channels have been reduced to half for faster training. Thus you can reincrease them and generate more precise saliency maps. Also, spending more time tuning model hyperparameters could be effective.
+Note that, as I said before, convolution layers channels have been reduced to half for faster training. Thus you can reincrease them and generate more precise saliency maps. Spending more time tuning model hyperparameters could also be effective.
 
 
 # Dataset
