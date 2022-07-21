@@ -20,9 +20,7 @@ Note that, as I said before, convolution layers channels have been reduced to ha
 
 
 # Dataset
-[CAT2000](http://saliency.mit.edu/results_cat2000.html) dataset is used to train the model
-
-You can use this link to download dataset
+[CAT2000](http://saliency.mit.edu/results_cat2000.html) dataset is used to train the model. You can use this link to download dataset
 ```
 http://saliency.mit.edu/trainSet.zip
 ```
