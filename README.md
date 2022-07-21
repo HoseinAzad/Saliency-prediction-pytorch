@@ -19,6 +19,10 @@ Two convnets are presented in the paper, a shallow network and a deep one. But h
 Note that as I said before, for faster training the network convolution layers channels have been reduced to half. Thus you can reincrease them and generate more precise saliency maps also spending more time to tune model hyperparameters could be effective
 
 
+# Dataset
+[CAT2000](http://saliency.mit.edu/results_cat2000.html) data set is used to train the model
+
+
 # References 
 This code draw lessons from:<br>
 https://github.com/Goutam-Kelam/Visual-Saliency/tree/master/Deep_Net<br>
