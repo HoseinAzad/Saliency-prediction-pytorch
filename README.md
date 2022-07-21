@@ -9,14 +9,14 @@ The prediction of salient areas in images has been traditionally addressed with 
 
 
 # Model
-Two convnets are presented in the paper, a shallow network and a deep one. But here I implemented the deep convnet with pytorch and for faster training, I reduced convolution layers channels to half. you can see the main network architecture in the below figure
+Two convnets are presented in the paper, a shallow network and a deep one. But here, I implemented the deep convnet with pytorch, and for faster training, I reduced convolution layers channels to half. you can see the main network architecture in the below figure
 
  <img src="https://raw.githubusercontent.com/imatge-upc/saliency-2016-cvpr/master/figs/deep.png" width="500" height="400" class="centerImage">
  
 
 # Results
 ![](https://github.com/hoseinAzdmlki/saliency-pytorch/blob/master/results/im1.png)
-Note that as I said before, for faster training convolution layers channels have been reduced to half. Thus you can reincrease them and generate more precise saliency maps also spending more time to tune model hyperparameters could be effective
+Note that, as I said before, convolution layers channels have been reduced to half for faster training. Thus you can reincrease them and generate more precise saliency maps. Also, spending more time tuning model hyperparameters could be effective.
 
 
 # Dataset
