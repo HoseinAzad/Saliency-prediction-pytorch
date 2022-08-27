@@ -1,4 +1,4 @@
-## Deep convolutional network for saliency prediction, implemented with PyTorch
+# Deep convolutional network for saliency prediction, implemented with PyTorch
 This is a pytorch implementation of [saliency-2016-cvpr ](https://arxiv.org/abs/1603.00845) 
 
 
