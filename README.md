@@ -16,7 +16,7 @@ Two convnets are proposed in the paper, a shallow network and a deep one. here, 
 
 ## Results
 ![](https://github.com/hoseinAzdmlki/saliency-pytorch/blob/master/results/im1.png)
-Note that other results may not be as good as these. By increasing the number of channels to the main values, probably you be able to create more precise maps. Spending more time tuning the model hyperparameters can also be effective.
+Note that other results may not be as good as these. But probably you be able to create more precise maps by increasing the number of channels to the main values. Spending more time tuning the model hyperparameters can also  be effective.
 
 
 ## Dataset
