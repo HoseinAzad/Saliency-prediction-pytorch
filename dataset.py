@@ -26,7 +26,7 @@ class Dataset(data.Dataset):
         # Resize
         img = cv2.resize(img, (self.input_width, self.input_height), interpolation=cv2.INTER_AREA).astype(np.float32)
         map = cv2.resize(map, (self.output_width, self.output_height), interpolation=cv2.INTER_AREA).astype(np.float32)
-        # Normalize data, similar to that described in the paper (mean subtraction and scaling )
+        # Normalize data (mean subtraction and scaling )
         img -= np.array((100, 110, 118))
         img /= (255 / 2)
         map -= np.array(27)
